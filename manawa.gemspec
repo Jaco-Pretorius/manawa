@@ -8,5 +8,6 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
   s.email = 'me@jacopretorius.net'
   s.homepage = 'http://github.com/Jaco-Pretorius/manawa'
-  s.files         = ['lib/manawa.rb']
+  s.files        = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
+  s.require_path = 'lib'
 end
